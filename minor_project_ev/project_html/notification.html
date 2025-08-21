@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .email{
+                text-align: start;
+                padding-left: 160px;
+            }
+            form{
+                text-align: center;
+                background-color: rgb(113, 136, 206);
+                padding-top: 40px;
+                padding-left: 5px;
+                position: relative;
+                width: 1150px;
+                height: 530px;
+                left: 5%;
+                top: 30%;
+                right: 50%;
+                bottom: 50%;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div>
+            <a href="my_account.html"><input type="image" src="back.png" alt="back" width="30" height="30"></a>
+        </div>
+        <form>
+            <h1>Notification</h1><br><br>
+            <div class="email">
+                <label for="notify"><b>Feedback Notification</b></label><br>
+                <input type="radio" value="yes" id="yes" name="ye_s">Allow<br>
+                <input type="radio" value="no"  id="yes"  name="ye_s">Denay
+                <p>if you allow we will send a feedback form.</p>
+            </div><br>
+            <div class="email">
+                <label for="notify"><b>Email Notification</b></label><br>
+                <input type="radio" value="yes" id="yes" name="yes">Allow<br>
+                <input type="radio" value="yes"  id="yes"  name="yes">Denay
+                <p>if you allow we will send you notification on your email to saty you updated.</p>
+            </div>
+            <div class="email">
+                <label for="notify"><b>Problem Notification</b></label><br>
+                <input type="radio" value="yes" id="yes" name="y_es">Allow<br>
+                <input type="radio" value="yes"  id="yes"  name="y_es">Denay
+                <p>if you allow we will notify you if any poblem with your account.</p>
+            </div>   
+        </form>
+    </body>
+</html>
